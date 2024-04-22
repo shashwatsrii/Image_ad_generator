@@ -1,5 +1,5 @@
 # Image_ad_generator
-
+'''
 image_ad_generator/
 ├── config.py  # Configuration file for paths, model parameters
 ├── data/
@@ -11,3 +11,4 @@ image_ad_generator/
 │   ├── image_utils.py  # Image processing utilities
 │   └── prompt_utils.py  # Prompt generation utilities
 └── main.py  # Main script for processing and generation
+'''
