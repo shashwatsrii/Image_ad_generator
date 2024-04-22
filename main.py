@@ -2,6 +2,7 @@ from models.stable_diffusion import StableDiffusionGenerator
 from utils.image_utils import resize_image, save_image
 from utils.prompt_utils import combine_product_and_background_prompt
 import config
+from PIL import Image
 import os
 
 def generate_ad_image(product_image, background_prompts):

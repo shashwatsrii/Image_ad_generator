@@ -1,5 +1,6 @@
 from diffusers import StableDiffusionPipeline
 from config import NUM_INFERENCE_STEPS
+
 class StableDiffusionGenerator:
     def __init__(self, model_name):
         self.pipe = StableDiffusionPipeline.from_pretrained(model_name)
