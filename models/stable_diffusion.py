@@ -15,6 +15,5 @@ class StableDiffusionGenerator:
         Returns:
             PIL.Image: Generated image.
         """
-
         image = self.pipe(prompt, num_inference_steps=num_inference_steps)["images"][0]
         return image

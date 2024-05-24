@@ -8,5 +8,4 @@ def combine_product_and_background_prompt(product_name, background_prompt):
     Returns:
         str: Combined prompt.
     """
-
     return f"A photorealistic image of a product image of {product_name} placed on {background_prompt}"
